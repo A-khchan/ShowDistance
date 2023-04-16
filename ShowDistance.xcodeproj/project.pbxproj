@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		497B06BC29EBA71300EF88EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497B06BB29EBA71300EF88EC /* AppDelegate.swift */; };
+		497B06BE29EBA71300EF88EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497B06BD29EBA71300EF88EC /* SceneDelegate.swift */; };
+		497B06C129EBA71300EF88EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497B06BF29EBA71300EF88EC /* LaunchScreen.storyboard */; };
+		497B06C429EBA71300EF88EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497B06C229EBA71300EF88EC /* Main.storyboard */; };
+		497B06CD29EBA71300EF88EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497B06CC29EBA71300EF88EC /* AppDelegate.swift */; };
+		497B06D029EBA71300EF88EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497B06CE29EBA71300EF88EC /* Main.storyboard */; };
+		497B06D729EBA71300EF88EC /* ShowDistance Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 497B06D629EBA71300EF88EC /* ShowDistance Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		497B06E129EBA71300EF88EC /* ShowDistance Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 497B06E029EBA71300EF88EC /* ShowDistance Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		497B06E729EBA71300EF88EC /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 497B06A229EBA71100EF88EC /* Main.html */; };
+		497B06E829EBA71300EF88EC /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 497B06A229EBA71100EF88EC /* Main.html */; };
+		497B06E929EBA71300EF88EC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 497B06A429EBA71100EF88EC /* Icon.png */; };
+		497B06EA29EBA71300EF88EC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 497B06A429EBA71100EF88EC /* Icon.png */; };
+		497B06EB29EBA71300EF88EC /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 497B06A529EBA71100EF88EC /* Style.css */; };
+		497B06EC29EBA71300EF88EC /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 497B06A529EBA71100EF88EC /* Style.css */; };
+		497B06ED29EBA71300EF88EC /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 497B06A629EBA71100EF88EC /* Script.js */; };
+		497B06EE29EBA71300EF88EC /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 497B06A629EBA71100EF88EC /* Script.js */; };
+		497B06EF29EBA71300EF88EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497B06A729EBA71100EF88EC /* ViewController.swift */; };
+		497B06F029EBA71300EF88EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497B06A729EBA71100EF88EC /* ViewController.swift */; };
+		497B06F129EBA71300EF88EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497B06A829EBA71300EF88EC /* Assets.xcassets */; };
+		497B06F229EBA71300EF88EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497B06A829EBA71300EF88EC /* Assets.xcassets */; };
+		497B06F329EBA71300EF88EC /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497B06AA29EBA71300EF88EC /* SafariWebExtensionHandler.swift */; };
+		497B06F429EBA71300EF88EC /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497B06AA29EBA71300EF88EC /* SafariWebExtensionHandler.swift */; };
+		497B06F529EBA71300EF88EC /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 497B06AC29EBA71300EF88EC /* _locales */; };
+		497B06F629EBA71300EF88EC /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 497B06AC29EBA71300EF88EC /* _locales */; };
+		497B06F729EBA71300EF88EC /* images in Resources */ = {isa = PBXBuildFile; fileRef = 497B06AD29EBA71300EF88EC /* images */; };
+		497B06F829EBA71300EF88EC /* images in Resources */ = {isa = PBXBuildFile; fileRef = 497B06AD29EBA71300EF88EC /* images */; };
+		497B06F929EBA71300EF88EC /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 497B06AE29EBA71300EF88EC /* manifest.json */; };
+		497B06FA29EBA71300EF88EC /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 497B06AE29EBA71300EF88EC /* manifest.json */; };
+		497B06FB29EBA71300EF88EC /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 497B06AF29EBA71300EF88EC /* background.js */; };
+		497B06FC29EBA71300EF88EC /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 497B06AF29EBA71300EF88EC /* background.js */; };
+		497B06FD29EBA71300EF88EC /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 497B06B029EBA71300EF88EC /* content.js */; };
+		497B06FE29EBA71300EF88EC /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 497B06B029EBA71300EF88EC /* content.js */; };
+		497B06FF29EBA71300EF88EC /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 497B06B129EBA71300EF88EC /* popup.html */; };
+		497B070029EBA71300EF88EC /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 497B06B129EBA71300EF88EC /* popup.html */; };
+		497B070129EBA71300EF88EC /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 497B06B229EBA71300EF88EC /* popup.css */; };
+		497B070229EBA71300EF88EC /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 497B06B229EBA71300EF88EC /* popup.css */; };
+		497B070329EBA71300EF88EC /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 497B06B329EBA71300EF88EC /* popup.js */; };
+		497B070429EBA71300EF88EC /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 497B06B329EBA71300EF88EC /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		497B06D829EBA71300EF88EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 497B069C29EBA71100EF88EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 497B06D529EBA71300EF88EC;
+			remoteInfo = "ShowDistance Extension (iOS)";
+		};
+		497B06E229EBA71300EF88EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 497B069C29EBA71100EF88EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 497B06DF29EBA71300EF88EC;
+			remoteInfo = "ShowDistance Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		497B070A29EBA71300EF88EC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				497B06D729EBA71300EF88EC /* ShowDistance Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497B071129EBA71300EF88EC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				497B06E129EBA71300EF88EC /* ShowDistance Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		497B06A329EBA71100EF88EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		497B06A429EBA71100EF88EC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		497B06A529EBA71100EF88EC /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		497B06A629EBA71100EF88EC /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		497B06A729EBA71100EF88EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		497B06A829EBA71300EF88EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		497B06AA29EBA71300EF88EC /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		497B06AC29EBA71300EF88EC /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		497B06AD29EBA71300EF88EC /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		497B06AE29EBA71300EF88EC /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		497B06AF29EBA71300EF88EC /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		497B06B029EBA71300EF88EC /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		497B06B129EBA71300EF88EC /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		497B06B229EBA71300EF88EC /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		497B06B329EBA71300EF88EC /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		497B06B829EBA71300EF88EC /* ShowDistance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowDistance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		497B06BB29EBA71300EF88EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		497B06BD29EBA71300EF88EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		497B06C029EBA71300EF88EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		497B06C329EBA71300EF88EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		497B06C529EBA71300EF88EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497B06CA29EBA71300EF88EC /* ShowDistance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowDistance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		497B06CC29EBA71300EF88EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		497B06CF29EBA71300EF88EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		497B06D129EBA71300EF88EC /* ShowDistance.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShowDistance.entitlements; sourceTree = "<group>"; };
+		497B06D629EBA71300EF88EC /* ShowDistance Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ShowDistance Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		497B06DB29EBA71300EF88EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497B06E029EBA71300EF88EC /* ShowDistance Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ShowDistance Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		497B06E529EBA71300EF88EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497B06E629EBA71300EF88EC /* ShowDistance.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShowDistance.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		497B06B529EBA71300EF88EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497B06C729EBA71300EF88EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497B06D329EBA71300EF88EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497B06DD29EBA71300EF88EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		497B069B29EBA71100EF88EC = {
+			isa = PBXGroup;
+			children = (
+				497B06A029EBA71100EF88EC /* Shared (App) */,
+				497B06A929EBA71300EF88EC /* Shared (Extension) */,
+				497B06BA29EBA71300EF88EC /* iOS (App) */,
+				497B06CB29EBA71300EF88EC /* macOS (App) */,
+				497B06DA29EBA71300EF88EC /* iOS (Extension) */,
+				497B06E429EBA71300EF88EC /* macOS (Extension) */,
+				497B06B929EBA71300EF88EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		497B06A029EBA71100EF88EC /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				497B06A729EBA71100EF88EC /* ViewController.swift */,
+				497B06A829EBA71300EF88EC /* Assets.xcassets */,
+				497B06A129EBA71100EF88EC /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		497B06A129EBA71100EF88EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				497B06A229EBA71100EF88EC /* Main.html */,
+				497B06A429EBA71100EF88EC /* Icon.png */,
+				497B06A529EBA71100EF88EC /* Style.css */,
+				497B06A629EBA71100EF88EC /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		497B06A929EBA71300EF88EC /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				497B06AA29EBA71300EF88EC /* SafariWebExtensionHandler.swift */,
+				497B06AB29EBA71300EF88EC /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		497B06AB29EBA71300EF88EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				497B06AC29EBA71300EF88EC /* _locales */,
+				497B06AD29EBA71300EF88EC /* images */,
+				497B06AE29EBA71300EF88EC /* manifest.json */,
+				497B06AF29EBA71300EF88EC /* background.js */,
+				497B06B029EBA71300EF88EC /* content.js */,
+				497B06B129EBA71300EF88EC /* popup.html */,
+				497B06B229EBA71300EF88EC /* popup.css */,
+				497B06B329EBA71300EF88EC /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		497B06B929EBA71300EF88EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				497B06B829EBA71300EF88EC /* ShowDistance.app */,
+				497B06CA29EBA71300EF88EC /* ShowDistance.app */,
+				497B06D629EBA71300EF88EC /* ShowDistance Extension.appex */,
+				497B06E029EBA71300EF88EC /* ShowDistance Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		497B06BA29EBA71300EF88EC /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				497B06BB29EBA71300EF88EC /* AppDelegate.swift */,
+				497B06BD29EBA71300EF88EC /* SceneDelegate.swift */,
+				497B06BF29EBA71300EF88EC /* LaunchScreen.storyboard */,
+				497B06C229EBA71300EF88EC /* Main.storyboard */,
+				497B06C529EBA71300EF88EC /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		497B06CB29EBA71300EF88EC /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				497B06CC29EBA71300EF88EC /* AppDelegate.swift */,
+				497B06CE29EBA71300EF88EC /* Main.storyboard */,
+				497B06D129EBA71300EF88EC /* ShowDistance.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		497B06DA29EBA71300EF88EC /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				497B06DB29EBA71300EF88EC /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		497B06E429EBA71300EF88EC /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				497B06E529EBA71300EF88EC /* Info.plist */,
+				497B06E629EBA71300EF88EC /* ShowDistance.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		497B06B729EBA71300EF88EC /* ShowDistance (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497B070B29EBA71300EF88EC /* Build configuration list for PBXNativeTarget "ShowDistance (iOS)" */;
+			buildPhases = (
+				497B06B429EBA71300EF88EC /* Sources */,
+				497B06B529EBA71300EF88EC /* Frameworks */,
+				497B06B629EBA71300EF88EC /* Resources */,
+				497B070A29EBA71300EF88EC /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				497B06D929EBA71300EF88EC /* PBXTargetDependency */,
+			);
+			name = "ShowDistance (iOS)";
+			productName = "ShowDistance (iOS)";
+			productReference = 497B06B829EBA71300EF88EC /* ShowDistance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		497B06C929EBA71300EF88EC /* ShowDistance (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497B071229EBA71300EF88EC /* Build configuration list for PBXNativeTarget "ShowDistance (macOS)" */;
+			buildPhases = (
+				497B06C629EBA71300EF88EC /* Sources */,
+				497B06C729EBA71300EF88EC /* Frameworks */,
+				497B06C829EBA71300EF88EC /* Resources */,
+				497B071129EBA71300EF88EC /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				497B06E329EBA71300EF88EC /* PBXTargetDependency */,
+			);
+			name = "ShowDistance (macOS)";
+			productName = "ShowDistance (macOS)";
+			productReference = 497B06CA29EBA71300EF88EC /* ShowDistance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		497B06D529EBA71300EF88EC /* ShowDistance Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497B070729EBA71300EF88EC /* Build configuration list for PBXNativeTarget "ShowDistance Extension (iOS)" */;
+			buildPhases = (
+				497B06D229EBA71300EF88EC /* Sources */,
+				497B06D329EBA71300EF88EC /* Frameworks */,
+				497B06D429EBA71300EF88EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShowDistance Extension (iOS)";
+			productName = "ShowDistance Extension (iOS)";
+			productReference = 497B06D629EBA71300EF88EC /* ShowDistance Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		497B06DF29EBA71300EF88EC /* ShowDistance Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497B070E29EBA71300EF88EC /* Build configuration list for PBXNativeTarget "ShowDistance Extension (macOS)" */;
+			buildPhases = (
+				497B06DC29EBA71300EF88EC /* Sources */,
+				497B06DD29EBA71300EF88EC /* Frameworks */,
+				497B06DE29EBA71300EF88EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShowDistance Extension (macOS)";
+			productName = "ShowDistance Extension (macOS)";
+			productReference = 497B06E029EBA71300EF88EC /* ShowDistance Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		497B069C29EBA71100EF88EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					497B06B729EBA71300EF88EC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					497B06C929EBA71300EF88EC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					497B06D529EBA71300EF88EC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					497B06DF29EBA71300EF88EC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 497B069F29EBA71100EF88EC /* Build configuration list for PBXProject "ShowDistance" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 497B069B29EBA71100EF88EC;
+			productRefGroup = 497B06B929EBA71300EF88EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				497B06B729EBA71300EF88EC /* ShowDistance (iOS) */,
+				497B06C929EBA71300EF88EC /* ShowDistance (macOS) */,
+				497B06D529EBA71300EF88EC /* ShowDistance Extension (iOS) */,
+				497B06DF29EBA71300EF88EC /* ShowDistance Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		497B06B629EBA71300EF88EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497B06E929EBA71300EF88EC /* Icon.png in Resources */,
+				497B06C129EBA71300EF88EC /* LaunchScreen.storyboard in Resources */,
+				497B06E729EBA71300EF88EC /* Main.html in Resources */,
+				497B06ED29EBA71300EF88EC /* Script.js in Resources */,
+				497B06F129EBA71300EF88EC /* Assets.xcassets in Resources */,
+				497B06C429EBA71300EF88EC /* Main.storyboard in Resources */,
+				497B06EB29EBA71300EF88EC /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497B06C829EBA71300EF88EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497B06EA29EBA71300EF88EC /* Icon.png in Resources */,
+				497B06EC29EBA71300EF88EC /* Style.css in Resources */,
+				497B06D029EBA71300EF88EC /* Main.storyboard in Resources */,
+				497B06EE29EBA71300EF88EC /* Script.js in Resources */,
+				497B06F229EBA71300EF88EC /* Assets.xcassets in Resources */,
+				497B06E829EBA71300EF88EC /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497B06D429EBA71300EF88EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497B06FB29EBA71300EF88EC /* background.js in Resources */,
+				497B070129EBA71300EF88EC /* popup.css in Resources */,
+				497B06FF29EBA71300EF88EC /* popup.html in Resources */,
+				497B06F729EBA71300EF88EC /* images in Resources */,
+				497B06F929EBA71300EF88EC /* manifest.json in Resources */,
+				497B06F529EBA71300EF88EC /* _locales in Resources */,
+				497B06FD29EBA71300EF88EC /* content.js in Resources */,
+				497B070329EBA71300EF88EC /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497B06DE29EBA71300EF88EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497B06FC29EBA71300EF88EC /* background.js in Resources */,
+				497B070229EBA71300EF88EC /* popup.css in Resources */,
+				497B070029EBA71300EF88EC /* popup.html in Resources */,
+				497B06F829EBA71300EF88EC /* images in Resources */,
+				497B06FA29EBA71300EF88EC /* manifest.json in Resources */,
+				497B06F629EBA71300EF88EC /* _locales in Resources */,
+				497B06FE29EBA71300EF88EC /* content.js in Resources */,
+				497B070429EBA71300EF88EC /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		497B06B429EBA71300EF88EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497B06EF29EBA71300EF88EC /* ViewController.swift in Sources */,
+				497B06BC29EBA71300EF88EC /* AppDelegate.swift in Sources */,
+				497B06BE29EBA71300EF88EC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497B06C629EBA71300EF88EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497B06F029EBA71300EF88EC /* ViewController.swift in Sources */,
+				497B06CD29EBA71300EF88EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497B06D229EBA71300EF88EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497B06F329EBA71300EF88EC /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497B06DC29EBA71300EF88EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497B06F429EBA71300EF88EC /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		497B06D929EBA71300EF88EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 497B06D529EBA71300EF88EC /* ShowDistance Extension (iOS) */;
+			targetProxy = 497B06D829EBA71300EF88EC /* PBXContainerItemProxy */;
+		};
+		497B06E329EBA71300EF88EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 497B06DF29EBA71300EF88EC /* ShowDistance Extension (macOS) */;
+			targetProxy = 497B06E229EBA71300EF88EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		497B06A229EBA71100EF88EC /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				497B06A329EBA71100EF88EC /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		497B06BF29EBA71300EF88EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				497B06C029EBA71300EF88EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		497B06C229EBA71300EF88EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				497B06C329EBA71300EF88EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		497B06CE29EBA71300EF88EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				497B06CF29EBA71300EF88EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		497B070529EBA71300EF88EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		497B070629EBA71300EF88EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		497B070829EBA71300EF88EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYK2H3LM2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ShowDistance Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AC-Company.ShowDistance.Extension";
+				PRODUCT_NAME = "ShowDistance Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		497B070929EBA71300EF88EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYK2H3LM2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ShowDistance Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AC-Company.ShowDistance.Extension";
+				PRODUCT_NAME = "ShowDistance Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		497B070C29EBA71300EF88EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYK2H3LM2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ShowDistance;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AC-Company.ShowDistance";
+				PRODUCT_NAME = ShowDistance;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		497B070D29EBA71300EF88EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYK2H3LM2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ShowDistance;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AC-Company.ShowDistance";
+				PRODUCT_NAME = ShowDistance;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		497B070F29EBA71300EF88EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/ShowDistance.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYK2H3LM2H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ShowDistance Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AC-Company.ShowDistance.Extension";
+				PRODUCT_NAME = "ShowDistance Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		497B071029EBA71300EF88EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/ShowDistance.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYK2H3LM2H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ShowDistance Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AC-Company.ShowDistance.Extension";
+				PRODUCT_NAME = "ShowDistance Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		497B071329EBA71300EF88EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/ShowDistance.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYK2H3LM2H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ShowDistance;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AC-Company.ShowDistance";
+				PRODUCT_NAME = ShowDistance;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		497B071429EBA71300EF88EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/ShowDistance.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYK2H3LM2H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ShowDistance;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AC-Company.ShowDistance";
+				PRODUCT_NAME = ShowDistance;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		497B069F29EBA71100EF88EC /* Build configuration list for PBXProject "ShowDistance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497B070529EBA71300EF88EC /* Debug */,
+				497B070629EBA71300EF88EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497B070729EBA71300EF88EC /* Build configuration list for PBXNativeTarget "ShowDistance Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497B070829EBA71300EF88EC /* Debug */,
+				497B070929EBA71300EF88EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497B070B29EBA71300EF88EC /* Build configuration list for PBXNativeTarget "ShowDistance (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497B070C29EBA71300EF88EC /* Debug */,
+				497B070D29EBA71300EF88EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497B070E29EBA71300EF88EC /* Build configuration list for PBXNativeTarget "ShowDistance Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497B070F29EBA71300EF88EC /* Debug */,
+				497B071029EBA71300EF88EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497B071229EBA71300EF88EC /* Build configuration list for PBXNativeTarget "ShowDistance (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497B071329EBA71300EF88EC /* Debug */,
+				497B071429EBA71300EF88EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 497B069C29EBA71100EF88EC /* Project object */;
+}
