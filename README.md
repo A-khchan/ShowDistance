@@ -1,3 +1,2 @@
 # ShowDistance
-This is a Safari Web Extension. It shows you the direct distance between your location and an address in a webpage. Just highlight the address on any webpage, the distance will be shown. The direction towards that address will be shown too. 
-To enable it work, you have to allow the webpage to use your location once it promptes.
+This is a Safari Web Extension that displays the direct distance between your current location and an address found on a webpage. Simply highlight the address and the distance will be shown, along with the direction towards that location. To enable this feature, you must grant permission for the webpage to access your location when prompted.
