@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49415A8329F6EA1100AA14BD /* content.css in Resources */ = {isa = PBXBuildFile; fileRef = 49415A8229F6EA1100AA14BD /* content.css */; };
+		49415A8429F6EA1100AA14BD /* content.css in Resources */ = {isa = PBXBuildFile; fileRef = 49415A8229F6EA1100AA14BD /* content.css */; };
 		497B06BC29EBA71300EF88EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497B06BB29EBA71300EF88EC /* AppDelegate.swift */; };
 		497B06BE29EBA71300EF88EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497B06BD29EBA71300EF88EC /* SceneDelegate.swift */; };
 		497B06C129EBA71300EF88EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497B06BF29EBA71300EF88EC /* LaunchScreen.storyboard */; };
@@ -90,6 +92,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		49415A8229F6EA1100AA14BD /* content.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = content.css; sourceTree = "<group>"; };
 		497B06A329EBA71100EF88EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		497B06A429EBA71100EF88EC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		497B06A529EBA71100EF88EC /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
@@ -208,6 +211,7 @@
 				497B06B129EBA71300EF88EC /* popup.html */,
 				497B06B229EBA71300EF88EC /* popup.css */,
 				497B06B329EBA71300EF88EC /* popup.js */,
+				49415A8229F6EA1100AA14BD /* content.css */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -414,6 +418,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49415A8329F6EA1100AA14BD /* content.css in Resources */,
 				497B06FB29EBA71300EF88EC /* background.js in Resources */,
 				497B070129EBA71300EF88EC /* popup.css in Resources */,
 				497B06FF29EBA71300EF88EC /* popup.html in Resources */,
@@ -429,6 +434,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49415A8429F6EA1100AA14BD /* content.css in Resources */,
 				497B06FC29EBA71300EF88EC /* background.js in Resources */,
 				497B070229EBA71300EF88EC /* popup.css in Resources */,
 				497B070029EBA71300EF88EC /* popup.html in Resources */,

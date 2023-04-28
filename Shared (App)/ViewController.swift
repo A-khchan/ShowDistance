@@ -34,7 +34,48 @@ class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMess
         self.webView.configuration.userContentController.add(self, name: "controller")
 
         self.webView.loadFileURL(Bundle.main.url(forResource: "Main", withExtension: "html")!, allowingReadAccessTo: Bundle.main.resourceURL!)
+        
+        
+        //try ChatGPT's suggestion
+        // Get the current active Safari page.
+        /*
+            SFSafariApplication.getActiveWindow { (window) in
+                window?.getActiveTab { (tab) in
+                    tab?.getActivePage { (page) in
+                        // Execute JavaScript code in the context of the current webpage.
+                        page?.dispatchMessageToScript(
+                            withName: "getSelectedText",
+                            userInfo: nil
+                        )
+                    }
+                }
+            }
+         */
+        //try ChatGPT's suggestion
+        
     }
+    
+    //ChatGPT
+    // Handle the "getSelectedTextResponse" message from the webpage.
+    /*
+    func safariExtensionHandler(message: [String : Any]) {
+        if let selectedText = message["message"] as? String {
+            // Highlight the selected text.
+            let highlightScript = "var span = document.createElement('span');span.style.backgroundColor='yellow';span.innerHTML = '\(selectedText)';window.getSelection().getRangeAt(0).surroundContents(span);"
+            SFSafariApplication.getActiveWindow { (window) in
+                window?.getActiveTab { (tab) in
+                    tab?.getActivePage { (page) in
+                        page?.dispatchMessageToScript(
+                            withName: "highlightSelectedText",
+                            userInfo: ["highlightScript": highlightScript]
+                        )
+                    }
+                }
+            }
+        }
+    }
+    */
+    
 
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
 #if os(iOS)

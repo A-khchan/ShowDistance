@@ -15,12 +15,20 @@
     },
 
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "background.js",
+        "persistent": false
     },
 
     "content_scripts": [{
+        "css": [ "content.css" ],
         "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "matches": [ "*://example.com/*", "http://*/*", "https://*/*" ]
+        
+    }],
+    
+    "web_accessible_resources": [{
+        "resources" : [ "images/*.png", "images/*.jpg" ],
+        "matches": [ "http://*/*", "https://*/*" ]
     }],
 
     "action": {
@@ -35,5 +43,5 @@
         }
     },
 
-    "permissions": [ ]
+    "permissions": [ "geoLocation", "nativeMessaging" ]
 }

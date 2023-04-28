@@ -1,0 +1,49 @@
+
+.my-toast {
+    /*
+     display: flex;
+     */
+    margin: 0px;
+    background: #fcfc03;
+    text-align: center;  /* no effect on the inner div but ok for inner text */
+    
+    position: fixed;
+    z-index: 9999;  /* make it on the top */
+    bottom: 10px;
+    right: 0px;  /* Right side having 0px away from the screen edge */
+    transform: translate(100%, 0%); /* X, Y.  X=100% means moving the element to the right of its initial postion by 100% of its own width. Y=50% means moving down. */
+    width: 350px;
+    height: 40px;
+    line-height: 36px;
+    padding: 0px;  /* This padding is about keeping some space for inner element */
+    border-radius: 10px;
+    border: solid red;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 1s linear, visibility 1s linear, transform 2.0s linear;
+    /* linear, ease-in-out */
+}
+
+.my-toast:hover {
+    /* opacity: 0; */
+    /* visibility: hidden; */
+    /* transform: translate(-4%, 0%); /* +100% to -4% means right to left */
+}
+
+
+.my-toast-appear {
+    transform: translate(-4%, 0%); /* +100% to -4% means right to left */
+}
+
+
+.my-toast-fading {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 1s linear, visibility 1s linear;
+}
+
+
+.circle {
+    transform: translate(9%, -10%) rotate(720deg);
+    -webkit-transition: transform 2.0s ease-in-out;
+}
